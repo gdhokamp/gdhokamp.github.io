@@ -1,0 +1,47 @@
+body {
+    font-family: "Century Gothic";
+    color:grey;
+}
+
+#mehrspaltig {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    background-color: whitesmoke;
+    padding:12pt;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+
+article {
+    flex: 4;
+    background-color: whitesmoke;
+    padding-left: 12pt;
+    padding-right: 12pt;
+
+}
+
+aside {
+    flex: 1;
+    background-color: whitesmoke;
+    padding-left:12pt;
+    border-left-color: grey;
+    border-left-style: solid;
+}
+
+a {text-decoration: none; color: orange}
+a:hover {color:lightgreen}
+
+p {text-align: justify; text-indent: 1.2em }
+p.linklist {
+    text-indent: 12pt;
+}
+
+h3 + p {text-indent: 0em}
+
+h1,h3 {
+    color:black;
+}
+
