@@ -1,4 +1,5 @@
-# gdhokamp.github.io
-Dies ist ein auf längere Zeit angelegtes Experiment, eine perönliche Web-Seite zu erstellen.
-Dies geschieht nur mit HTML und CSS, falls es sich ergibt auch noch JavaScript.
-Der Fortschritt wird auf der Web-Seite selbst dokumentiert.
+# A digital garden
+
+Auf dieser Seite wird die Idee eines digitalen Gartens realisiert. Keine Homepage, kein Blog, kein Portfolio und doch von allem etwas.
+Es werden neue Bereiche entstehen, alte gelöscht oder verändert werden. Einige Bereiche werden aufblühen, andere wieder eingehen, wie
+in einem normalen Garten.
