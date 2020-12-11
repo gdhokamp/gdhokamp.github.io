@@ -15,7 +15,7 @@ nav {
     border-bottom-style: solid;
 }
 
-article {
+main {
     flex: 4;
     background-color: whitesmoke;
     padding-left: 12pt;
