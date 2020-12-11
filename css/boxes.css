@@ -1,0 +1,61 @@
+.cards {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    align-content: center;
+}
+
+a.boxtext:hover {
+    background-color: orange;
+    color:white;
+}
+a.boxtext {
+    text-decoration: none;
+    color:black;
+    height: auto;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-color: orange;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-right-color: orange;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.box {
+    display: grid;
+}
+
+.boxkopf {
+    background-color: orange;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-color: orange;
+    height: auto;
+}
+
+
+.boxtext:hover{
+    background-color: orange;
+    color:whitesmoke;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}

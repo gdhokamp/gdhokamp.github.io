@@ -1,0 +1,80 @@
+#mehrspaltig {
+    display: flex;
+}
+
+header {
+    padding: 0.5em;
+}
+
+main {
+    padding: 1em 1em 0px 1em;
+}
+
+nav {
+    padding: 1em;
+    background-color: whitesmoke;
+}
+
+aside {
+    padding-left: 1em;
+    flex: 70%;
+    background-color: whitesmoke;
+}
+
+footer {
+    padding: 1em;
+}
+
+
+.box {
+    float:right;
+    width:10%;
+    background-color: orange;
+    padding: 1em;
+}
+
+code {
+    margin-left: 2em;
+    padding:12pt;
+    background-color: gainsboro;
+    color: black;
+}
+
+p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+h2 + p {
+    text-indent: 0em;
+}
+
+h2 + p::first-letter {
+    color:orange;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: larger;
+    color: orange;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    text-align: right;
+    padding-top: 1em;
+}
+
+h1 {
+    font-weight: lighter;
+    color:orange;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+    font-size: larger;
+}
+
+a:hover {
+  color:orange;
+}
+

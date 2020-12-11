@@ -1,0 +1,33 @@
+img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+figure {
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: initial;
+}
+
+figcaption {
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.gallery {
+    display: flex;
+}
+
+
+img:hover {
+    opacity:0.2;
+}
+
