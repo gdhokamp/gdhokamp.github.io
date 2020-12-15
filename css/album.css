@@ -3,6 +3,7 @@ img {
     height: auto;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    opacity:0.5;
 }
 
 figure {
@@ -21,6 +22,11 @@ figcaption {
     font-weight: bold;
 }
 
+.text {
+    padding: 1em;
+}
+
+
 
 .gallery {
     display: flex;
@@ -28,6 +34,6 @@ figcaption {
 
 
 img:hover {
-    opacity:0.2;
+    opacity:1;
 }
 
