@@ -1,5 +1,5 @@
 body {
-    font-family: avory-i-latin,sans-serif;
+    font-family: roboto-condensed,sans-serif;
     font-weight: 300;
     font-style: normal;
     color:#026063;
@@ -23,15 +23,10 @@ a:active {
     color:grey;
 }
 
-
 h1 {
-    float:left;
-    border-style: solid;
-    border-width: thin;
-    padding: 1rem;
-    border-radius: 5px;
-    width: 4cm;
-    height: 5cm;
+    font-size:200%;
+    padding-left: 2rem;
+    color:#8BA88F;
 }
 
 article {

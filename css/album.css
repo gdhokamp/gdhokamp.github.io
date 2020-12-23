@@ -3,18 +3,40 @@ img {
     height: auto;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    opacity:0.5;
+    opacity:1;
 }
+
+img.navigation {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    opacity:0.2;
+}
+
 
 figure {
     border-radius: 25px;
     border-color: black;
     border-style: solid;
     border-width: thin;
-    flex-basis: 250px;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: initial;
+    flex-wrap: wrap;
+
+}
+
+figure.navigation {
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    flex-basis: 150px;
     flex-grow: 0;
     flex-shrink: initial;
 }
+
 
 figcaption {
     padding: 1em;
@@ -34,6 +56,6 @@ figcaption {
 
 
 img:hover {
-    opacity:1;
+    opacity:0.9;
 }
 
